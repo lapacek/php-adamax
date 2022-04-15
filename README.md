@@ -28,6 +28,8 @@ The framework provides an adapter for the Doctrine 2 ORM framework, but it was a
 
 ## testing
 
+Testing probably doesn`t work because there is dependency on Doctrine 2 ORM framework. This dependency is not currently solved before testing automaticaly.
+
 ```bash
 $ make test
 ```
