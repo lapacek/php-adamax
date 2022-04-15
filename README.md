@@ -23,12 +23,13 @@ The framework provides an adapter for the Doctrine 2 ORM framework, but it was a
 
 ## prerequesities
 
+* PHP >5.3
 * sqlite database for testing of Doctrine 2 wrapper
 * Doctrine 2
 
 ## testing
 
-Testing probably doesn`t work because there is dependency on Doctrine 2 ORM framework. This dependency is not currently solved before testing automaticaly.
+Testing probably doesn`t work because there is a dependency on Doctrine 2 ORM framework. This dependency is not currently solved before testing automatically.
 
 ```bash
 $ make test
