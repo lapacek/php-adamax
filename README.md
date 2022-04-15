@@ -19,3 +19,15 @@ I was testing that with the Twig templating engine which was a part of the Symph
 
 ## model/data layer
 
+The framework provides an adapter for the Doctrine 2 ORM framework, but it was also tested with the table gateway pattern implementation.
+
+## prerequesities
+
+* sqlite database for testing of Doctrine 2 wrapper
+* Doctrine 2
+
+## testing
+
+```bash
+$ make test
+```
